@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Configuration, OpenAIApi } from 'openai';
 import { VoiceModel } from './voice.model';
-import {VoiceDto} from "./voice.dto";
 
 @Injectable()
 export class AppService {
